@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300i|Notable");
+.banner {
+  max-width: 20000px;
+  width: 1354px;
+  height: 350px;
+  margin: auto;
+}
+
+.imagen-logo {
+  max-width: 20000px;
+  width: 1354px;
+  height: 350px;
+  margin: auto;
+  position: relative;
+}
+
+body {
+  background-color: #040404;
+}
+
+.rrss {
+  background-color: color-secundario;
+  width: 400px;
+  border: none;
+  float: right;
+}
+
+.discos {
+  display: flex;
+  justify-content: space-between;
+  width: 1222px;
+}
+
+.cover-hudson img {
+  width: 350px;
+  height: 450px;
+}
+
+.cover-med img {
+  width: 350px;
+  height: 450px;
+}
+
+.cover-vac img {
+  width: 350px;
+  height: 450px;
+}
+
+footer {
+  width: 100%;
+  display: inline-block;
+  background-color: #fd2de0;
+  float: right;
+}
+
+.suscribir {
+  display: flex;
+  justify-content: center;
+}
+
+.creditos {
+  float: right;
+  color: #005584;
+  font-family: Montserrat, sans-serif;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,75 @@
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300i|Notable');
+
+$color-principal:#040404;
+$color-secundario:#fd2de0;
+$color-terciario:#005584;
+$fuente-titulos: Montserrat, sans-serif;
+$fuente-secundaria:'Notable', sans-serif;
+
+
+.banner{
+	max-width: 20000px;
+		width: 1354px;
+		height: 350px;
+		margin: auto;
+
+}
+.imagen-logo{
+		max-width: 20000px;
+		width: 1354px;
+		height: 350px;
+		margin: auto;
+		position: relative;
+	}
+body{
+	background-color: $color-principal
+}
+
+.rrss{
+	background-color: color-secundario;
+	width: 400px;
+	border: none;
+	float: right;
+}
+
+.discos{
+	display: flex;
+	justify-content: space-between;
+	width: 1222px;
+
+}
+
+.cover-hudson img{
+	width: 350px;
+	height: 450px;
+}
+
+.cover-med img{
+	width: 350px;
+	height: 450px;
+}
+
+.cover-vac img{
+	width: 350px;
+	height: 450px;
+}
+
+footer{
+	width: 100%;
+	display: inline-block;
+	background-color: $color-secundario;
+	float: right;
+}		
+
+
+.suscribir{
+	display: flex;
+	justify-content: center;
+}
+	.creditos {
+		float: right;
+		color: $color-terciario;
+		font-family: $fuente-titulos;
+		font-weight: bold;
+}
