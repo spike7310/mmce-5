@@ -9,8 +9,7 @@ $fuente-secundaria:'Notable', sans-serif;
 
 
 .banner{
-	max-width: 20000px;
-		width: 1354px;
+	max-width: 1354px;
 		height: 350px;
 		margin: auto;
 
@@ -57,9 +56,7 @@ body{
 
 footer{
 	width: 100%;
-	display: inline-block;
 	background-color: $color-secundario;
-	float: right;
 }		
 
 
@@ -69,7 +66,7 @@ footer{
 }
 	.creditos {
 		float: right;
-		color: $color-terciario;
+		color: $color-secundario;
 		font-family: $fuente-titulos;
-		font-weight: bold;
+		font-weight: 700;
 }
