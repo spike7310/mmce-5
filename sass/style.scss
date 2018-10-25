@@ -39,19 +39,25 @@ body{
 
 }
 
-.cover-hudson img{
+.cover-hudson {
 	width: 350px;
-	height: 450px;
+	img{
+		max-width: 100%;
+	}
 }
 
-.cover-med img{
-	width: 350px;
-	height: 450px;
+.cover-med {
+		width: 350px;
+	img{
+		max-width: 100%;
+	}
 }
 
-.cover-vac img{
-	width: 350px;
-	height: 450px;
+.cover-vac {
+		width: 350px;
+	img{
+		max-width: 100%;
+	}
 }
 
 footer{

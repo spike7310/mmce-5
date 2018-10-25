@@ -30,19 +30,25 @@ body {
   width: 1222px;
 }
 
+.cover-hudson {
+  width: 350px;
+}
 .cover-hudson img {
-  width: 350px;
-  height: 450px;
+  max-width: 100%;
 }
 
+.cover-med {
+  width: 350px;
+}
 .cover-med img {
-  width: 350px;
-  height: 450px;
+  max-width: 100%;
 }
 
-.cover-vac img {
+.cover-vac {
   width: 350px;
-  height: 450px;
+}
+.cover-vac img {
+  max-width: 100%;
 }
 
 footer {
