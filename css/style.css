@@ -1,16 +1,13 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:300i|Notable");
 .banner {
-  max-width: 1354px;
-  height: 350px;
-  margin: auto;
-}
-
-.imagen-logo {
-  max-width: 20000px;
+  display: flex;
+  align-item: flex-start;
   width: 1354px;
-  height: 350px;
   margin: auto;
   position: relative;
+}
+.banner img {
+  max-width: 100%;
 }
 
 body {
@@ -53,7 +50,9 @@ body {
 
 footer {
   width: 100%;
-  background-color: #fd2de0;
+  background-color: #a30054;
+  background: include filter-gradient(#a30054, #a30054, horizontal);
+  background: include background-image(linear-gradient(left, #a30054 5%, #a30054 20%, #a30054 72%, #880176 100%));
 }
 
 .suscribir {

@@ -9,17 +9,14 @@ $fuente-secundaria:'Notable', sans-serif;
 
 
 .banner{
-	max-width: 1354px;
-		height: 350px;
-		margin: auto;
-
-}
-.imagen-logo{
-		max-width: 20000px;
+		display: flex;
+		align-item: flex-start;
 		width: 1354px;
-		height: 350px;
 		margin: auto;
 		position: relative;
+		img{
+			max-width: 100%;
+		}
 	}
 body{
 	background-color: $color-principal
@@ -62,7 +59,9 @@ body{
 
 footer{
 	width: 100%;
-	background-color: $color-secundario;
+	background-color: rgba(163,0,84,1);
+	background: include filter-gradient(#a30054, #a30054, horizontal);
+	background: include background-image(linear-gradient(left, rgba(163,0,84,1) 5%, rgba(163,0,84,1) 20%, rgba(163,0,84,1) 72%, rgba(136,1,118,1) 100%));
 }		
 
 
