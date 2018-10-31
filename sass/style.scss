@@ -19,35 +19,38 @@ $fuente-secundaria:'Notable', sans-serif;
 		}
 	}
 .rrss ul{
-	li{
 		display: inline-block;
-		background: none;
-		width: 40px;
-		height: 40px;
-		text-align: center;
-		border-radius: 50%;
-		padding-top: 10px;
-		box-sizing: border-box;
-		cursor: pointer;
-	  	box-sizyng: border-box;
+		float: right;
+	    padding-right: 20px;
+    
+}	
+		li{
+			display: inline;
+			background: none;
+			width: 40px;
+			height: 40px;
+			text-align: center;
+			border-radius: 50%;
+			padding-top: 10px;
+			box-sizing: border-box;
+			cursor: pointer;
 	}
 
-	#fb{
-		background-color: blue;
-	}
-	#insta{
-		background-color: #E80D55;
-	}
+			#fb{
+				background-color: blue;
+			}
+			#insta{
+				background-color: #E80D55;
+			}
 
-	#yt{
-		background-color: red;
-	}
+			#yt{
+				background-color: red;
+			}
 
-	#spoti{
-		background-color: green;
-	}
+			#spoti{
+				background-color: green;
+			}
 
-}
 body{
 	background-color: $color-principal
 }
